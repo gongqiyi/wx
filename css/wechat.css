@@ -1,3 +1,10 @@
+body{
+	background-color: rgb(137, 207, 240);
+}
+section{
+	  background-image:url(http://www.csszengarden.com/210/clouds.jpg);
+}
+
 .purchase{
 	font-size: 25px;
 }
@@ -14,6 +21,8 @@ footer{
     position: fixed;
     bottom: 0;
     font-size: 25px;
+    background-image: url(http://www.csszengarden.com/210/divider01.jpg);
+    color: #fff;
 }
 footer div{
 display: inline-block;
@@ -32,4 +41,3 @@ display: inline-block;
     bottom: 35px;
     left: 25px;
 }
-
