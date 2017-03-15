@@ -1,0 +1,28 @@
+.title{
+	text-align: center;
+	margin-top: -20px;
+}
+footer{
+	width: 100vw;
+	display: flex;
+	justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+}
+footer div{
+display: inline-block;
+}
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+.list{
+	display: flex;
+	flex-direction: column;
+    position: absolute;
+    display: none;
+    bottom: 10px;
+    left: 10px;
+}
+
