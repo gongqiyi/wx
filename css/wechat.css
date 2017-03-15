@@ -11,7 +11,7 @@ footer{
 	display: -webkit-flex; /* Safari */
 	display: flex;
 	justify-content: space-between;
-    position: fixed;
+    position: absolute;
     bottom: 0;
     font-size: 25px;
 }
