@@ -1,18 +1,25 @@
+.purchase{
+	font-size: 25px;
+}
 .title{
 	text-align: center;
-	margin-top: -20px;
+	margin-top: -35px;
+	font-size: 25px;
 }
 footer{
 	width: 100vw;
+	display: -webkit-flex; /* Safari */
 	display: flex;
 	justify-content: space-between;
     position: fixed;
     bottom: 0;
+    font-size: 25px;
 }
 footer div{
 display: inline-block;
 }
 .box {
+  display: -webkit-flex; /* Safari */
   display: flex;
   flex-wrap: wrap;
   align-content: space-between;
@@ -22,7 +29,7 @@ display: inline-block;
 	flex-direction: column;
     position: absolute;
     display: none;
-    bottom: 10px;
-    left: 10px;
+    bottom: 35px;
+    left: 25px;
 }
 
