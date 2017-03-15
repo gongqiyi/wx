@@ -8,6 +8,10 @@
 <script type="text/javascript" src="js/wechat.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 <style type="text/css">
+.form-group{
+width: 90vw;
+
+}
 body{
 	background-color: rgb(137, 207, 240);
 }
@@ -19,11 +23,6 @@ body{
 		vertical-align: -2px;
 		margin-right: 5px;
 	}
-.form-group{
-	width: 60vw;
-	margin-left: 20vw;
-	margin-right: 20vw;
-}
 .per{
 		color: blue;
 	}
@@ -81,9 +80,7 @@ section{
 .con{
 	margin-top: 20px;
 }
-.btn-success{
-	margin-left: 47vw;
-}
+
 </style>
 </head>
 <body>
@@ -92,37 +89,54 @@ section{
 <div class="title">用户注册</div>
 </section>
 <div class="agree"><input type="checkbox" name="">我已同意[<span class="per">网站个人用户协议</span>]</div>
-<form>
-  <div class="form-group">
-    <label for="">公司</label>
-    <input type="text" class="form-control"  placeholder="公司">
+
+<form class="form-horizontal">
+  <div class="form-group form-group-sm">
+    <label class="col-sm-2 control-label" for="formGroupInputSmall">Small label</label>
+    <div class="col-sm-10">
+      <input class="form-control" type="text" id="formGroupInputSmall" placeholder="Small input">
+    </div>
   </div>
-   <div class="form-group">
-    <label for="">部门</label>
-    <input type="text" class="form-control"  placeholder="部门">
+  <div class="form-group form-group-sm">
+    <label class="col-sm-2 control-label" for="formGroupInputSmall">Small label</label>
+    <div class="col-sm-10">
+      <input class="form-control" type="text" id="formGroupInputSmall" placeholder="Small input">
+    </div>
   </div>
-  <div class="form-group">
-    <label for="">姓名</label>
-    <input type="text" class="form-control"  placeholder="姓名">
+  <div class="form-group form-group-sm">
+    <label class="col-sm-2 control-label" for="formGroupInputSmall">Small label</label>
+    <div class="col-sm-10">
+      <input class="form-control" type="text" id="formGroupInputSmall" placeholder="Small input">
+    </div>
   </div>
-  <div class="form-group">
-    <label for="">邮箱</label>
-    <input type="text" class="form-control"  placeholder="邮箱">
+  <div class="form-group form-group-sm">
+    <label class="col-sm-2 control-label" for="formGroupInputSmall">Small label</label>
+    <div class="col-sm-10">
+      <input class="form-control" type="text" id="formGroupInputSmall" placeholder="Small input">
+    </div>
   </div>
-  <div class="form-group">
-    <label for="">身份证</label>
-    <input type="text" class="form-control"  placeholder="身份证">
+  <div class="form-group form-group-sm">
+    <label class="col-sm-2 control-label" for="formGroupInputSmall">Small label</label>
+    <div class="col-sm-10">
+      <input class="form-control" type="text" id="formGroupInputSmall" placeholder="Small input">
+    </div>
   </div>
-  <div class="form-group">
-    <label for="">手机</label>
-    <input type="text" class="form-control"  placeholder="手机">
+  <div class="form-group form-group-sm">
+    <label class="col-sm-2 control-label" for="formGroupInputSmall">Small label</label>
+    <div class="col-sm-10">
+      <input class="form-control" type="text" id="formGroupInputSmall" placeholder="Small input">
+    </div>
   </div>
-  <div class="form-group">
-    <label for="">用户类别</label>
-    <input type="text" class="form-control"  placeholder="用户类别">
+  <div class="form-group form-group-sm">
+    <label class="col-sm-2 control-label" for="formGroupInputSmall">Small label</label>
+    <div class="col-sm-10">
+      <input class="form-control" type="text" id="formGroupInputSmall" placeholder="Small input">
+    </div>
   </div>
-  <input class="btn btn-success" type="submit" value="Submit">
+  <button type="submit" class="btn btn-success">（成功）Success</button>
 </form>
+
+
 <footer>
 <div class="count">...我的账户
 <div>
